@@ -6,7 +6,7 @@ Installation
 
 or
 
-> git clone https://github.com/rameshvishnoi90904/react-native-recycler-listview.git
+> git clone https://github.com/rameshvishnoi90904/react-native-phone-verification.git
 
 ##step 1: In settings.gradle
 ```

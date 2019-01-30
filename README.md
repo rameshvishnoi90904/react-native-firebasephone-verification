@@ -2,32 +2,31 @@
 React Native Android custom component for firebase phone authentication
 
 Installation
-> npm install react-native-phone-verification
+```
+npm install react-native-phone-verification
+```
 
-or
+## step 0: Setup Firebase Project
 
-> git clone https://github.com/rameshvishnoi90904/react-native-phone-verification.git
+#### Go to: https://console.firebase.google.com/u/0/ firebase console & create new android project
+#### Go to project settings and add new Android app and fill in correct app details(package name)
+#### Download google-services.json file and put inside app file of your project
 
-##step 0: Setup Firebase Project
-Go to: https://console.firebase.google.com/u/0/ firebase console & create new android project
-Go to project settings and add new Android app and fill in correct app details(package name)
-Download google-services.json file and put inside app file of your project
-
-##step 1: In settings.gradle
+## step 1: In settings.gradle
 ```
 include ':ReactNativePhoneVerification'
 project(':ReactNativePhoneVerification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-phone-verification/android')
 
 ```
 
-##step 2: In android/app/build.gradle
+## step 2: In android/app/build.gradle
 ```
 dependencies {
 compile project(':ReactNativePhoneVerification')
 }
 ```
 
-##step 3: In MainApplication.java
+## step 3: In MainApplication.java
 
 ```
 
@@ -41,7 +40,7 @@ import com.reactnative.phoneverification.PhoneVerificationPackage;
 }
 
 ```
-##step 4: In index.js
+## step 4: In index.js
 ```javascript
 import PhoneVerification from 'react-native-phone-verification';
 

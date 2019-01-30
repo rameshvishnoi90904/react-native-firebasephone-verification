@@ -1,4 +1,4 @@
-package com.reactnative.phoneverfication;
+package com.reactnative.phoneverification;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;

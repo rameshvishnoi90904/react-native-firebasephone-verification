@@ -1,4 +1,4 @@
-package com.reactnative.phoneverfication;
+package com.reactnative.phoneverification;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class PhoneVerficationPackage implements ReactPackage {
+public class PhoneVerificationPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();

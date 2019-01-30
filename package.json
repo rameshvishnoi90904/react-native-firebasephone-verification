@@ -1,7 +1,7 @@
 {
     "name": "react-native-phone-verification",
     "version": "1.0.0",
-    "description": "",
+    "description": "React Native Android custom component for firebase phone authentication",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,6 @@
         "type": "git",
         "url": "https://github.com/rameshvishnoi90904/react-native-phone-verification.git"
     },
-    "author": "RameshVishnoi",
+    "author": "rameshvishnoi",
     "license": "ISC"
 }

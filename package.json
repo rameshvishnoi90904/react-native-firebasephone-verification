@@ -1,0 +1,25 @@
+{
+    "name": "react-native-phone-verification",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "react",
+        "react-native",
+        "react-component",
+        "android",
+        "firebase",
+        "FirebaseAuth",
+        "authentication",
+        "Phone-Authentication"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rameshvishnoi90904/react-native-phone-verification.git"
+    },
+    "author": "RameshVishnoi",
+    "license": "ISC"
+}

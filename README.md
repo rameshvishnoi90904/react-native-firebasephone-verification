@@ -3,7 +3,7 @@ React Native Android custom component for firebase phone authentication
 
 Installation
 ```
-npm install react-native-phone-verification
+npm install react-native-firebasephone-verification
 ```
 
 ## step 0: Setup Firebase Project
@@ -42,7 +42,7 @@ import com.reactnative.phoneverification.PhoneVerificationPackage;
 ```
 ## step 4: In index.js
 ```javascript
-import PhoneVerification from 'react-native-phone-verification';
+import PhoneVerification from 'react-native-firebasephone-verification';
 
 // invoke this function to initiate phone verification
 PhoneVerification.sendVerificationCode("+91","9004******");

@@ -15,7 +15,7 @@ npm install react-native-firebasephone-verification
 ## step 1: In settings.gradle
 ```
 include ':ReactNativePhoneVerification'
-project(':ReactNativePhoneVerification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-phone-verification/android')
+project(':ReactNativePhoneVerification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebasephone-verification/android')
 
 ```
 

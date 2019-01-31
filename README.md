@@ -1,4 +1,4 @@
-# react-native-phone-verification
+# react-native-firebasephone-verification
 React Native Android custom component for firebase phone authentication
 
 Installation

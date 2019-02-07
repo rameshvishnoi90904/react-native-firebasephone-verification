@@ -26,7 +26,16 @@ compile project(':ReactNativePhoneVerification')
 }
 ```
 
-## step 3: In MainApplication.java
+## step 3: In Project-level build.gradle (<project>/build.gradle)
+  
+```
+dependencies {
+  // Add this line
+  classpath 'com.google.gms:google-services:4.0.1'
+}
+```   
+
+## step 4: In MainApplication.java
 
 ```
 
@@ -40,7 +49,7 @@ import com.reactnative.phoneverification.PhoneVerificationPackage;
 }
 
 ```
-## step 4: In index.js
+## step 5: In index.js
 ```javascript
 import PhoneVerification from 'react-native-firebasephone-verification';
 

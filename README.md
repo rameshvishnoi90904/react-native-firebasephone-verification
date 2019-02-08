@@ -24,6 +24,9 @@ project(':ReactNativePhoneVerification').projectDir = new File(rootProject.proje
 dependencies {
 compile project(':ReactNativePhoneVerification')
 }
+
+//Add this line at last 
+apply plugin: 'com.google.gms.google-services'
 ```
 
 ## step 3: In Project-level build.gradle (<project>/build.gradle)
@@ -38,7 +41,6 @@ dependencies {
 ## step 4: In MainApplication.java
 
 ```
-
 import com.reactnative.phoneverification.PhoneVerificationPackage;
 
 @Override protected List getPackages() {
